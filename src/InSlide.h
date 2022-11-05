@@ -61,7 +61,7 @@
 #define INSL_INVALID_DIGIT        (-3)        // The digit sliders are not set to show a valid digit 0 ... F
 
 // sensorData values of the digits
-//                                   EFGCDAB
+//                                   EFGABCD
 #define INSL_DIGIT_0              (0b1011010)
 #define INSL_DIGIT_1              (0b0001011)
 #define INSL_DIGIT_2              (0b1110001)
