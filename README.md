@@ -5,7 +5,7 @@
 This an Arduino support library for a strange and nearly useless type of input device 
 consisting of one or more mechanical seven-segment display modules each of whose content the 
 user sets by operating the module's three sliders to form the digits the user wishes to input. 
-After setting the digits for the desited input value in this way, the value of the digits may 
+After setting the digits for the desired input value in this way, the value of the digits may 
 be read using the library. (How the user signals when it's time to read the device is not a 
 part of this library.)
 
@@ -19,7 +19,7 @@ On a given module, the left slider controls the vertical segments on the left si
 display. All the way in, it shows no segments. Pull it out one click and you see the top 
 segment. Another click and both segments are displayed. Pulling it out all the way (the next 
 click) displays only the lower segment. The right slider works the same way, but for the 
-verticle segments on the right side of the display.
+vertical segments on the right side of the display.
 
 The center slider controls the display of the horizontal segments. All the way in: no segments 
 are displayed. One click out: Top only. Two clicks: top and middle. Three: top middle and 
